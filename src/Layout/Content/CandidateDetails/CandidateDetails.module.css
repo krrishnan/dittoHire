@@ -1,0 +1,74 @@
+.CandidateDetail {
+	background-color: #E4EBEF;
+	width: 100%;
+	margin: auto;
+}
+
+.InterViewRequestCount {
+	text-align: right;
+	padding: 12px;
+	margin-right: 9%
+}
+
+.CandidateImage {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 12px;
+}
+
+.CandidateTable {
+	text-align: left;
+	background-color: #F9FAFB;
+	border-collapse: collapse;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+	width: 85%;
+	margin: auto;
+}
+
+.Header {
+	padding: 12px 0;
+	text-indent: 12px;
+	background-color: #EEF5F6;
+}
+
+.SortableHeader {
+	padding: 12px 0;
+	text-indent: 12px;
+	background-color: #EEF5F6;
+	cursor: pointer;
+}
+
+.SortIcon {
+	margin-left: 3px;
+}
+
+.CandidateTable tr {
+	border-bottom: 2px solid #D9EEF8;
+}
+
+.CandidateTable td {
+	padding: 12px 0;
+	text-indent: 12px;
+}
+
+.ArchiveButton {
+	border: none;
+	outline: none;
+	background: none;
+	color: #40AADB;
+	margin-right: 12px;
+	cursor: pointer;
+}
+
+.MessageNotRead {
+	background-color: #34B96F;
+	border-radius: 50%;
+	float: left;
+	height: 10px;
+	vertical-align: -webkit-baseline-middle;
+	width: 10px;
+	margin-top: 5px;
+	margin-left: 6px;
+}
