@@ -1,22 +1,19 @@
 .CandidateHeader {
 	width: 100%;
-	overflow: hidden;
 }
 
 .SearchContainer {
 	margin: 6px;
-	margin-left: 10%;
 	text-indent: 10px;
 	border: 1px solid rgb(0, 0, 0, 0.1);
-	width: 300px;
-	float: left;
+	box-sizing: border-box;
 }
 
 .SearchContainer input {
-	padding: 12px 0;
+	padding: 6px 0;
 	border: none;
 	outline: 0;
-	width: 250px;
+	width: 85%;
 }
 
 .SearchContainer button {
@@ -26,14 +23,53 @@
 	cursor: pointer;
 	vertical-align: middle;
 	opacity: 30%;
-}
-
-.Icon {
-	transform: scale(1.2);
+	float: right;
+	margin-top: 6px;
 }
 
 .ArchiveContainer {
 	float: right;
-	margin-right: 10%;
-	padding: 12px 0;
+	margin-right: 2%;
+	padding: 6px 0;
+}
+
+@media (min-width: 500px) {
+	.SearchContainer {
+		width: 300px;
+		float: left;
+	}
+}
+
+@media (min-width: 750px) {
+	.SearchContainer {
+		margin-left: 10%;
+		width: 300px;
+		float: left;
+	}
+	.SearchContainer input {
+		width: 260px;
+	}
+	.SearchIcon {
+		transform: scale(1.2);
+	}
+	.ArchiveContainer {
+		margin-right: 11%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.SearchContainer {
+		margin: 6px;
+		margin-left: 10%;
+	}
+	.SearchContainer input {
+		padding: 12px 0;
+	}
+	.SearchContainer button {
+		margin-top: 12px;
+	}
+	.ArchiveContainer {
+		margin-right: 11%;
+		padding: 12px 0;
+	}
 }

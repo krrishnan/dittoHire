@@ -18,7 +18,7 @@ const CandidateHeader = (props) => {
 					value={props.searchText}
 					onChange={searchTextChangedHandler} />
 				<button>
-					<FaSearch className={CandidateHeaderClasses.Icon} />
+					<FaSearch className={CandidateHeaderClasses.SearchIcon} />
 				</button>
 			</div>
 

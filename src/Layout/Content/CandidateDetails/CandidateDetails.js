@@ -29,17 +29,18 @@ const CandidateDetails = (props) => {
 
 	//Table headers
 	const columnNames = [
-		{ name: 'Candidate', data: 'candidate' },
-		{ name: 'Role', data: 'role' },
-		{ name: 'Last Communication', data: 'last_comms', sortable: true },
+		{ name: 'Candidate', data: 'candidate', minWidth: '140px' },
+		{ name: 'Role', data: 'role', minWidth: '150px' },
+		{ name: 'Last Communication', data: 'last_comms', sortable: true, minWidth: '160px' },
 		{ name: 'Salary', data: 'salary' },
-		{ name: 'Sent by', data: 'sent_by' },
+		{ name: 'Sent by', data: 'sent_by', minWidth: '120px' },
 		{ name: '', data: 'archived' }
 	];
 	const columnHeaders = columnNames.map(
 		(column, index) => {
 			const columnName = column.name;
 			const sortable = column.sortable;
+			const minWidth = column.minWidth
 
 			let headerElement = null;
 
@@ -48,6 +49,7 @@ const CandidateDetails = (props) => {
 					<TableCell key={columnName + index}
 						className={CandidateClasses.SortableHeader}
 						onClick={() => props.handleSort(columnName)}
+						style={{minWidth: minWidth}}
 					>
 						{columnName}
 						<FaSort className={CandidateClasses.SortIcon} />
@@ -57,6 +59,7 @@ const CandidateDetails = (props) => {
 				headerElement = (
 					<TableCell key={columnName + index}
 						className={CandidateClasses.Header}
+						style={{minWidth: minWidth}}
 					>
 						{columnName}
 					</TableCell>

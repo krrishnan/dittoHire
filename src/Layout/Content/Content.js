@@ -56,13 +56,10 @@ const Content = () => {
 
 const sortCandidateList = (columnName, sortOrder, candidateList, setCandidateList) => {
 	//logic handled only for last communication
-
-	let sortedCandidateList;
-
 	if (sortOrder.indexOf('desc') >= 0) {
-		sortedCandidateList = candidateList.sort(sortDesc);
+		candidateList.sort(sortDesc);
 	} else if (sortOrder.indexOf('asc') >= 0) {
-		sortedCandidateList = candidateList.sort(sortAsc);
+		candidateList.sort(sortAsc);
 	}
 }
 
