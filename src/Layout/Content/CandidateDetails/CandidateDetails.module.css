@@ -1,21 +1,20 @@
+.InterViewRequestCount {
+	text-align: right;
+	padding: 6px;
+	margin-right: 3px;
+}
+
 .CandidateDetail {
 	background-color: #E4EBEF;
 	width: 100%;
-	margin: auto;
+	overflow: auto;
 }
-
-.InterViewRequestCount {
-	text-align: right;
-	padding: 12px;
-	margin-right: 9%
+.CandidateDetail::-webkit-scrollbar {
+	display: none;
 }
-
-.CandidateImage {
-	height: 35px;
-	width: 35px;
-	border-radius: 50%;
-	float: left;
-	margin-left: 12px;
+.CandidateDetail {
+-ms-overflow-style: none;
+scrollbar-width: none;
 }
 
 .CandidateTable {
@@ -23,21 +22,20 @@
 	background-color: #F9FAFB;
 	border-collapse: collapse;
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
-	width: 85%;
-	margin: auto;
+	width: 100%;
 }
 
 .Header {
-	padding: 12px 0;
-	text-indent: 12px;
+	padding: 6px 0 !important;
 	background-color: #EEF5F6;
+	text-indent: 8px;
 }
 
 .SortableHeader {
-	padding: 12px 0;
-	text-indent: 12px;
+	padding: 6px 0 !important;
 	background-color: #EEF5F6;
 	cursor: pointer;
+	text-indent: 8px;
 }
 
 .SortIcon {
@@ -49,17 +47,16 @@
 }
 
 .CandidateTable td {
-	padding: 12px 0;
-	text-indent: 12px;
+	padding: 6px 0 !important;
+	text-indent: 8px;
 }
 
-.ArchiveButton {
-	border: none;
-	outline: none;
-	background: none;
-	color: #40AADB;
-	margin-right: 12px;
-	cursor: pointer;
+.CandidateImage {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 12px;
 }
 
 .MessageNotRead {
@@ -70,5 +67,63 @@
 	vertical-align: -webkit-baseline-middle;
 	width: 10px;
 	margin-top: 5px;
-	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.ArchiveButton {
+	border: none;
+	outline: none;
+	background: none;
+	color: #40AADB;
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+
+@media (min-width: 750px){
+	
+	.InterViewRequestCount {
+		margin-right: 9%;
+	}
+
+	.CandidateTable {
+		width: 80% !important;
+		margin: auto;
+	}
+
+	.Header {
+		padding: 6px 0 !important;
+	}
+	
+	.SortableHeader {
+		padding: 6px 0 !important;
+	}
+	
+	.SortIcon {
+		margin-left: 3px;
+	}
+}
+
+@media (min-width: 1000px), (min-height: 1300px) {
+	.InterViewRequestCount {
+		padding: 12px;
+		margin-right: 9%
+	}
+	
+	.CandidateTable {
+		width: 85%;
+		margin: auto;
+	}
+	
+	.Header {
+		padding: 12px 0 !important;
+	}
+	
+	.SortableHeader {
+		padding: 12px 0 !important;
+	}
+
+	.CandidateTable td {
+		padding: 12px 0 !important;
+	}
 }
