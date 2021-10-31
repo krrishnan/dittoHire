@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dittoHire/static/css/main.217b7cb2.chunk.css",
-    "main.js": "/dittoHire/static/js/main.ea7c7db4.chunk.js",
-    "main.js.map": "/dittoHire/static/js/main.ea7c7db4.chunk.js.map",
+    "main.css": "/dittoHire/static/css/main.42d10208.chunk.css",
+    "main.js": "/dittoHire/static/js/main.3fa5a4d9.chunk.js",
+    "main.js.map": "/dittoHire/static/js/main.3fa5a4d9.chunk.js.map",
     "runtime-main.js": "/dittoHire/static/js/runtime-main.5d8e770d.js",
     "runtime-main.js.map": "/dittoHire/static/js/runtime-main.5d8e770d.js.map",
     "static/js/2.00178bde.chunk.js": "/dittoHire/static/js/2.00178bde.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.78375ed1.chunk.js": "/dittoHire/static/js/3.78375ed1.chunk.js",
     "static/js/3.78375ed1.chunk.js.map": "/dittoHire/static/js/3.78375ed1.chunk.js.map",
     "index.html": "/dittoHire/index.html",
-    "static/css/main.217b7cb2.chunk.css.map": "/dittoHire/static/css/main.217b7cb2.chunk.css.map",
+    "static/css/main.42d10208.chunk.css.map": "/dittoHire/static/css/main.42d10208.chunk.css.map",
     "static/js/2.00178bde.chunk.js.LICENSE.txt": "/dittoHire/static/js/2.00178bde.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5d8e770d.js",
     "static/js/2.00178bde.chunk.js",
-    "static/css/main.217b7cb2.chunk.css",
-    "static/js/main.ea7c7db4.chunk.js"
+    "static/css/main.42d10208.chunk.css",
+    "static/js/main.3fa5a4d9.chunk.js"
   ]
 }
