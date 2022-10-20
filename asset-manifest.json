@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dittoHire/static/css/main.12f5990d.chunk.css",
+    "main.js": "/dittoHire/static/js/main.133ae4a8.chunk.js",
+    "main.js.map": "/dittoHire/static/js/main.133ae4a8.chunk.js.map",
+    "runtime-main.js": "/dittoHire/static/js/runtime-main.5543a85f.js",
+    "runtime-main.js.map": "/dittoHire/static/js/runtime-main.5543a85f.js.map",
+    "static/js/2.90045160.chunk.js": "/dittoHire/static/js/2.90045160.chunk.js",
+    "static/js/2.90045160.chunk.js.map": "/dittoHire/static/js/2.90045160.chunk.js.map",
+    "static/js/3.0a05a8e3.chunk.js": "/dittoHire/static/js/3.0a05a8e3.chunk.js",
+    "static/js/3.0a05a8e3.chunk.js.map": "/dittoHire/static/js/3.0a05a8e3.chunk.js.map",
+    "index.html": "/dittoHire/index.html",
+    "static/css/main.12f5990d.chunk.css.map": "/dittoHire/static/css/main.12f5990d.chunk.css.map",
+    "static/js/2.90045160.chunk.js.LICENSE.txt": "/dittoHire/static/js/2.90045160.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5543a85f.js",
+    "static/js/2.90045160.chunk.js",
+    "static/css/main.12f5990d.chunk.css",
+    "static/js/main.133ae4a8.chunk.js"
+  ]
+}
